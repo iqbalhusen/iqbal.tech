@@ -1,0 +1,8 @@
+services:
+  astrowind:
+    build: .
+    command: npm run dev -- --host
+    volumes:
+      - .:/app
+    ports:
+      - "4321:4321"
