@@ -7,7 +7,6 @@ import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Steps from '~/components/widgets/Steps.astro';
-import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'Personal Homepage Demo',
@@ -22,7 +21,14 @@ const metadata = {
         { text: 'Home', href: '#' },
         { text: 'About', href: '#about' },
         { text: 'Experience', href: '#resume' },
-        { text: 'Projects', href: '#porfolio' }
+        { text: 'Projects', href: '#porfolio' },
+        { text: 'Gallery', href: 'https://codelens.myportfolio.com/' }
+      ]}
+      actions={[
+        {
+          text: 'Get in touch',
+          href: 'mailto:me@iqbal.tech',
+        },
       ]}
       isSticky
       showToggleTheme
@@ -54,7 +60,7 @@ const metadata = {
         callToAction: {
           target: '_blank',
           text: 'LinkedIn',
-          href: '#',
+          href: 'https://www.linkedin.com/in/iqbalhusn',
         },
       },
       {
@@ -62,7 +68,7 @@ const metadata = {
         callToAction: {
           target: '_blank',
           text: 'Toptal',
-          href: '#',
+          href: 'https://www.toptal.com/developers/resume/iqbal-hussain',
         },
       },
       {
@@ -70,7 +76,7 @@ const metadata = {
         callToAction: {
           target: '_blank',
           text: 'me@iqbal.tech',
-          href: '#',
+          href: 'mailto:me@iqbal.tech',
         },
       },
     ]}
@@ -103,7 +109,6 @@ const metadata = {
 
   <Features3
     title="Technical skills"
-    subtitle="Core technologies and frameworks I use to build and scale production applications."
     columns={2}
     defaultIcon="tabler:point-filled"
     items={[
@@ -157,13 +162,6 @@ const metadata = {
         description: `• Architected the foundational Python backend from scratch. <br /> • Built secure REST APIs for the primary mobile application. <br /> • Engineered automated website crawling and data extraction pipelines. <br /> • Deployed initial AWS infrastructure and background task processing.`,
         icon: 'tabler:briefcase',
       },
-
-
-
-
-
-
-
       {
         title:
           'Backend Developer <br /> <span class="font-normal">Empower Futures, Ahmedabad, India</span> <br /> <span class="text-sm font-normal">2014 - 2015</span>',
@@ -218,7 +216,7 @@ const metadata = {
       target: '_blank',
       text: 'Go to the project',
       icon: 'tabler:chevron-right',
-      href: '#',
+      href: 'https://business.geophrase.com',
     }}
   >
     <Fragment slot="content">
@@ -241,7 +239,7 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Get in touch',
-        href: '/',
+        href: 'mailto:me@iqbal.tech',
       },
     ]}
   />

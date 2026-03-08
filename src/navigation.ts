@@ -120,13 +120,10 @@ export const headerData = {
 
 export const footerData = {
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/iqbalhusn' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/iqbalhusen' },
+    { ariaLabel: 'Stack Overflow', icon: 'tabler:brand-stackoverflow', href: 'https://stackoverflow.com/users/3775598/iqbal' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/iqbal_husn' }
   ],
-  footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
-  `,
+  footNote: '© 2026 by Iqbal Hussain.',
 };
