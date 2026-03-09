@@ -6,7 +6,6 @@ site:
 
   googleSiteVerificationId: vtNRQIIont5ZOWEZy3brfxzNI6-dNo_q2-iRN401Qx0
 
-# Default SEO metadata
 metadata:
   title:
     default: 'Iqbal Hussain — Senior Full-Stack Developer'
@@ -19,7 +18,7 @@ metadata:
     images:
       - url: 'https://iqbal.tech/og-image.png'
         width: 1200
-        height: 628
+        height: 630
     type: website
   twitter:
     handle: '@iqbal_husn'
