@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://iqbal.tech/sitemap-index.xml
