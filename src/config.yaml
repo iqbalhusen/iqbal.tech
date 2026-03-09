@@ -17,7 +17,7 @@ metadata:
   openGraph:
     site_name: 'Iqbal Hussain'
     images:
-      - url: '~/assets/images/default.png'
+      - url: 'https://iqbal.tech/og-image.png'
         width: 1200
         height: 628
     type: website
